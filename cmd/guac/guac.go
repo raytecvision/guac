@@ -11,8 +11,8 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/gorilla/websocket"
+	"github.com/raytecvision/guac"
 	"github.com/sirupsen/logrus"
-	"github.com/wwt/guac"
 )
 
 var tunnels map[string]guac.Tunnel
